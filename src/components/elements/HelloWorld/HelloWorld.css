@@ -1,0 +1,9 @@
+.CorporateComponent {
+    background-color: #EFEFEF;
+    color: red;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}

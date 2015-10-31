@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import Router from 'react-router';
-import './App.css';
+import styles from './App.css';
 var RouteHandler = Router.RouteHandler;
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div id="app" className="App-Container">
+            <div id="app" className={styles.Container}>
                 {this.props.children}
             </div>
         );
